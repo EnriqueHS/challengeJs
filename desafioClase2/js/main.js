@@ -10,7 +10,7 @@ const negativo = "no";
 
 
 let horoscopo = prompt("¿Crees en el Horóscopo?");
-horoscopo = horoscopo.toLowerCase; //con toUpperCase me daba error, no se porque.
+horoscopo = horoscopo.toLowerCase; 
 
 
 if (horoscopo === afirmativo) {
@@ -36,4 +36,6 @@ if (horoscopo === afirmativo) {
 } else {
     alert("Ok chau");
 }
+
+
 

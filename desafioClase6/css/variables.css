@@ -1,0 +1,17 @@
+:root {
+	/* -------- COLORES -------- */
+	/* FONDO */
+	--clr-bg-black: #000;
+	--clr-bg-dark: #333;
+	--clr-bg-light: #f3f3f3;
+	--clr-bg-white: #fafafa;
+
+	/* TIPOGRAFIA */
+	--clr-txt-dark: var(--clr-bg-white);
+	--clr-txt-light: var(--clr-bg-black);
+
+	/* ACCENT */
+	--clr-accent-200: rgb(230, 89, 65);
+	--clr-accent-400: rgb(243, 34, 7);
+	--clr-accent-600: rgb(248, 3, 3);
+}

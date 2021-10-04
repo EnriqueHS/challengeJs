@@ -1,0 +1,87 @@
+@import url(../variables.css);
+
+footer {
+	display: flex;
+	flex-flow: column-reverse;
+	align-items: center;
+	padding: 1em;
+	padding: 1em;
+	background: var(--clr-bg-dark);
+	color: var(--clr-txt-dark);
+}
+
+footer .info {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	align-items: baseline;
+	justify-content: center;
+	gap: 1em;
+}
+
+/* footer .newsletter {
+} */
+
+footer .newsletter h3 {
+	text-align: center;
+}
+
+footer .newsletter form {
+	display: flex;
+	flex-flow: column;
+	gap: 0.3em;
+}
+
+/* footer .newsletter input {
+	
+}
+
+
+footer .newsletter .btn {
+} */
+
+@media only screen and (min-width: 600px) {
+	footer {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: baseline;
+		justify-content:space-between;
+		gap: 1em;
+	}
+
+	footer .info {
+		display: flex;
+		flex-flow: row;
+	}
+
+	footer .newsletter form {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+		gap: 0em;
+	}
+	footer .newsletter form input, footer .newsletter form button {
+		border-radius: 0;
+		
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	footer {
+		padding-left:10% ;
+		padding-right: 10%;
+	}
+
+	footer .info {
+		display: flex;
+		flex-flow: row;
+	}
+
+	footer .newsletter form {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+		gap: 0.3em;
+	}
+}
+
+/*1.32*/

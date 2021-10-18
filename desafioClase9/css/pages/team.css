@@ -1,0 +1,16 @@
+#designer-CP{
+  background: url(../../img/zafu-B.jpg) no-repeat center center /cover; 
+  /*
+  background-image
+  background-repeat
+  background-position
+  background-attachment
+  */
+}
+#designer-LB{
+  background: url(../../img/zafu-O.jpg) no-repeat center center /cover; 
+}
+#designer-CW{
+  background: url(../../img/zafu-R.jpg) no-repeat center center /cover; 
+
+}

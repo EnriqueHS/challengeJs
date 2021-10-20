@@ -1,0 +1,38 @@
+
+
+@import url(fonts.css);
+@import url(variables.css);
+
+
+/* LAYOUT */
+@import url(layout/layout.css);
+
+/* COMPONENTS */
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/form.css);
+
+/* CSS */
+@import url(pages/team.css);
+
+
+* {
+	text-decoration: none;
+	color: inherit;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.visuallyhidden {
+	position: absolute;
+	margin: -1px;
+	height: 1px;
+	width: 1px;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	overflow: hidden;
+}
+

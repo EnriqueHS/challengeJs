@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Proyecto Js - </title>
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<header>
+			<a href="#" class="brand">
+				Lorem
+			
+			</a>
+			<nav>
+				<a href="#" class="menu menu-sm">
+					<span class="iconify" data-icon="whh:menu" data-inline="false"></span>
+				</a>
+
+				<ul class="menu menu-md">
+					<li class="menu-link "><a href="index.html">Home</a></li>
+          
+					<li class="menu-link"><a href="store.html">Tienda</a></li>
+					<li class="menu-link"><a href="product.html">Productos</a></li>
+					<li class="menu-link "><a href="contact.html">Contacto</a></li>
+					<li class="menu-link menu-link--active"><a href="contact.html">Admin</a></li>
+					
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<h2 class="st-c">¿Tenes alguna pregunta?</h2>
+			<form action="" class="form-contact">
+				<label for="name">Nombre</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Correo</label>
+				<input type="email" id="email" name="email" required>
+				<label for="motive">¿En qué te podemos ayudar?</label>
+				<select name="motive" id="motive">
+					<option value="na" disabled selected>Elige una opción</option>
+					<option value="product">Productos</option>
+					<option value="shipping">Compra</option>
+					<option value="payment">Envíos</option>
+					<option value="others">Otros</option>
+				</select>
+
+				<label for="comment">Dejanos tu consulta</label>
+				<textarea name="comment" id="comment" cols="" rows="" required></textarea>
+				<label for="newsletter"> 
+					<input type="checkbox" name="newsletter" id="newsletter" value="1">
+					Quiero suscribirme al newsletter
+				</label>	
+				<button type="submit" class="btn btn-pri">Enviar</button>
+			</form>
+		</main>
+
+		<footer>
+			<div class="">
+				<a href="index.html" class="brand">
+					Lorem
+				
+				</a>
+
+				<div class="">
+					<h3>Mapa</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="store.html">Tienda</a></li>
+						<li><a href="product.html">Productos</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="">
+				<h3>Suscribite a nuestro newsletter</h3>
+				<form action="#">
+					<label for="email" class="visuallyhidden">Correo electrónico</label>
+					<input type="email" id="email" name="email" placeholder="Tu correo electrónico" />
+					<button type="submit" class="btn btn-pri">Suscribirme</button>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>

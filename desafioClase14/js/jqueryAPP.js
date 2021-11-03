@@ -47,7 +47,7 @@ $("#menu-sm").on("click", () => {
 
 
 
-$(".box-picture").css("background", "rgb(190,87,108)")
+$(".box-picture").css("background", "#F3F3F3")
 .slideUp(1600)
 .slideDown(300)
 

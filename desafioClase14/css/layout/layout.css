@@ -12,6 +12,7 @@ main{
   flex:1; /*para separar el header del footer*/
   
 }
+
 .container-f{
   display: flex;
   /*flex-direction:row ;
@@ -71,22 +72,42 @@ main{
 
 #contenidoTareas div{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-
-  border: 1px solid #CECECE;
-  width: 98%;
+  background-color: darkorchid;
+  
+  width:80%;
   font-weight: 400;
   margin: 1em auto;
   padding: 1em;
-  text-align: center;
+  
+  
+  color: #f5f4f4;
+  
 }
 #contenidoTareas span{
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.cont-tareas{
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+
+
+}
+.cont-middle{
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 5em 0;
 }
 
 #cont-pictures{
-  background-color: #F3F3F3;
+  background-color: #757575;
   width: 100%;
   padding: 20px 0;
   display: flex;
@@ -97,4 +118,7 @@ main{
 
 .box-picture{
   width: 300px;
+  border: 1px solid #757575;
+  border-radius: 5px;
 }
+

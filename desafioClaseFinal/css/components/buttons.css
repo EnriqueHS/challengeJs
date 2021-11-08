@@ -1,0 +1,21 @@
+.btn{
+  padding: 0.3em 2em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border: none;
+  outline: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+.btn-pri{
+  background: var(--clr-accent-400);
+  color: var(--clr-txt-dark);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-txt{
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+
+}

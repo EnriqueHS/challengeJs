@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Proyecto Js</title>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	<link rel="shortcut icon" href="" type="image/x-icon" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<header>
+		<a href="#" class="brand">
+			<span><img src="img/bahe-logo.png" width="50" alt="" /></span>
+			Lorem
+		</a>
+		<nav>
+			<a href="#" id="menu-sm" class="menu menu-sm">
+				<span class="iconify" data-icon="whh:menu" data-inline="false"></span>
+			</a>
+		
+			
+			<ul class="menu menu-md">
+				<li class="menu-link"><a href="index.html">Home</a></li>
+
+				<li class="menu-link"><a href="store.html">Carrito</a></li>
+					<li class="menu-link"><a href="categoria.html">Filtro Cat.</a></li>
+					<li class="menu-link"><a href="product.html">Productos</a></li>
+				<li class="menu-link"><a href="contact.html">Contacto</a></li>
+				<li class="menu-link"><a href="admin.html">Admin</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<!-- Efecto wave -->
+		<div id="wave-cont">
+			<div class="txt-header">
+				<h1>Organizate el día</h1>
+				<a href="#comenzarTareas" id="btnComenzar">Comenzar</a>
+			</div>
+			<div class="wave">
+				<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+					<path d="M0.00,49.98 C222.06,145.55 351.30,4.45 500.27,85.36 L510.44,155.42 L0.00,150.00 Z"
+						style="stroke: none; fill: #fff"></path>
+				</svg>
+			</div>
+		</div>
+		<!-- fin de efecto wave -->
+	</main>
+
+	<div class="txt-header">
+		<h2 id="comenzarTareas">Comenza a organizarte el día</h2>
+		<em>Escribe tus tareas de Yoga y Meditación para que no te olvides nada y puedas
+			organizarte mejor.</em>
+
+			<form action="">
+
+				<input type="text" placeholder="Día de la semana" autocomplete="off" id="dia">
+				<input type="number" placeholder="Inicio (24hs)" autocomplete="off" id="horaInicio">
+				<input type="number" placeholder="Finalización (24hs)" autocomplete="off" id="horaFinalizacion">
+				<input type="text" placeholder="Tarea a realizar" autocomplete="off" id="tarea">
+				<input type="number" placeholder="Codigo" autocomplete="off" id="codigo">
+			
+				
+				<button id="btnSave" class="btn btn-pri">Agendar</button>
+			</form>
+	</div>
+
+	<div id="contenidoTareas" class="txt-header">
+		
+	</div>
+	
+	
+	
+		
+	<div id="cont-pictures">
+			
+			
+		</div>
+
+
+
+<div class="cont-middle">
+		<div id="busqueda"></div>
+
+		<h2>Desafio Ajax:</h2>
+		<div id="respuesta"></div>
+</div>
+
+
+	<!-- Comienzo de footer -->
+	<footer>
+		<div class="">
+			<a href="index.html" class="brand"> lorem </a>
+
+			<div class="">
+				<h3>Mapa</h3>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="store.html">Tienda</a></li>
+					<li><a href="product.html">Nuestro equipo</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="">
+			<h3>Suscribite a nuestro newsletter</h3>
+			<form action="#">
+				<label for="email" class="visuallyhidden">Correo electrónico</label>
+				<input type="email" id="email" name="email" placeholder="Tu correo electrónico" />
+				<button type="submit" class="btn btn-pri">Suscribirme</button>
+			</form>
+		</div>
+	</footer>
+
+	<!-- codigo script -->
+	<script src="js/tareas.js"></script>
+  <script src="js/jquery.js"></script>
+	<script src="js/jqueryAPP.js"></script>
+</body>
+
+</html>

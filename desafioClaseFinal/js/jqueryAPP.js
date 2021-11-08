@@ -79,15 +79,15 @@ $("#btnBuscqueda").click(()=> {
 
 
 //DARK MODE
-/* 
+
 
 const darkMode = () => {
-  document.getElementById("linkTheme").href = "./dark.css"
+  document.getElementById("linkTheme").href = "css/dark.css"
   localStorage.setItem("theme", "dark")
 }
 
 const lightMode = () => {
-  document.getElementById("linkTheme").href = "./light.css"
+  document.getElementById("linkTheme").href = "css/main.css"
   localStorage.setItem("theme", "ligth")
 }
 
@@ -101,8 +101,8 @@ document.getElementById("theme").addEventListener("click", () => {
 
 
 const universal = document.createElement("style")
-universal.textContent = `*{color:grey}`
+universal.textContent = `*{color:}`
 
 document.getElementsByTagName("head")[0].appendChild(universal)
 
- */
+

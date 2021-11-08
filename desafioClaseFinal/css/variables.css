@@ -5,10 +5,12 @@
 	--clr-bg-dark: #333;
 	--clr-bg-light: #f3f3f3;
 	--clr-bg-white: #fafafa;
+	--clr-bg-color:#C45B6B;
 
 	/* TIPOGRAFIA */
 	--clr-txt-dark: var(--clr-bg-white);
 	--clr-txt-light: var(--clr-bg-black);
+	--clr-txt-color: var(--clr-bg-color);
 
 	/* ACCENT */
 	--clr-accent-200: rgb(230, 89, 65);

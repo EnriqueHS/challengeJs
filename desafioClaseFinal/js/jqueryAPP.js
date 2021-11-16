@@ -34,7 +34,7 @@ $("#menu-sm").on("click", () => {
 
 
   //Animamos sus propiedades CSS con animate
-  $(".box-picture").animate({
+  /* $(".box-picture").animate({
           height: '250px',
           opacity: '0.9',
           width: '300px',
@@ -49,10 +49,16 @@ $("#menu-sm").on("click", () => {
 
 $(".box-picture").css("background", "#F3F3F3")
 .slideUp(1600)
-.slideDown(300)
+.slideDown(300) */
 
 
-//Llamada ajax
+
+
+
+
+
+
+//Llamada ajax 
 
 const url = "https://hp-api.herokuapp.com/api/characters";
 
@@ -72,15 +78,13 @@ $("#btnBuscqueda").click(()=> {
 
   })
 
-})
+}) 
 
 
 
 
 
 //DARK MODE
-
-
 const darkMode = () => {
   document.getElementById("linkTheme").href = "css/dark.css"
   localStorage.setItem("theme", "dark")

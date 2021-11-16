@@ -25,7 +25,9 @@
 	outline: 0;
 	overflow: hidden;
 }
-
+.iconify{
+  cursor: pointer;
+}
 
 html {
 }
@@ -165,12 +167,12 @@ main{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: darkorchid;
+  background-color: #EFEFEF;
   width:80%;
   font-weight: 400;
   margin: 1em auto;
   padding: 1em;
-  color: #f5f4f4;
+  color: var(--clr-txt-light);
 }
 #contenidoTareas span{
   font-weight: 400;
@@ -227,6 +229,7 @@ main{
   outline: none;
   border-radius: 0.3em;
   cursor: pointer;
+  
 }
 .btn-pri{
   background: var(--clr-accent-400);
@@ -306,6 +309,7 @@ main{
 /* FORM */
 input, select, option, textarea{
   padding: 0.5em;
+  margin: 0.5em;
   border: none;
   background: var(--clr-bg-light);
   color: var(--clr-txt-light);
@@ -316,6 +320,13 @@ textarea{
   min-height: 100px;
 
 }
+#form-tareas{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
 form.form-contact{
   display: flex;
   flex-flow: column nowrap;
@@ -343,25 +354,19 @@ footer {
 	flex-flow: column-reverse;
 	align-items: center;
 	padding: 1em;
-	padding: 1em;
-	background: var(--clr-bg-dark);
+
+
 	color: var(--clr-txt-dark);
 }
-footer .info {
+footer p {
 	display: flex;
 	flex-flow: row-reverse wrap;
 	align-items: baseline;
 	justify-content: center;
 	gap: 1em;
+  color: var(--clr-txt-light);
 }
-footer .newsletter h3 {
-	text-align: center;
-}
-footer .newsletter form {
-	display: flex;
-	flex-flow: column;
-	gap: 0.3em;
-}
+
 /*** STYLE FOOTER ***/
 
 
@@ -404,29 +409,6 @@ footer .newsletter form {
 		gap: 1em;
 	}
 
-	footer {
-		display: flex;
-		flex-flow: row nowrap;
-		align-items: baseline;
-		justify-content:space-between;
-		gap: 1em;
-	}
-
-	footer .info {
-		display: flex;
-		flex-flow: row;
-	}
-
-	footer .newsletter form {
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: flex-end;
-		gap: 0em;
-	}
-	footer .newsletter form input, footer .newsletter form button {
-		border-radius: 0;
-		
-	}
 }
 
 @media only screen and (max-width:900px) {
@@ -443,16 +425,11 @@ footer .newsletter form {
 		padding-right: 10%;
 	}
 
-	footer .info {
+	footer p {
 		display: flex;
 		flex-flow: row;
 	}
 
-	footer .newsletter form {
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: flex-end;
-		gap: 0.3em;
-	}
+
 	
 }

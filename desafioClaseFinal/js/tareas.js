@@ -76,7 +76,7 @@ const imprimirDatos = () => {
       <p>Hora de finalización: <span>${obj.horaFinalizacion}</span></p>
       <p>Tarea a realizar: <span>${obj.tarea}</span></p>
       <p>codigo: <span>${obj.codigo}</span></p>
-      <p><button  onclick=eliminarDeLaLista(${obj.codigo})><span class="iconify" data-icon="fa-regular:window-close" style="color: orange;" data-width="35" data-height="35"></span></button></p>
+      <p><button  onclick=eliminarDeLaLista(${obj.codigo})><span class="iconify" data-icon="fa-regular:window-close" style="color: orange;" data-width="25" data-height="25"></span></button></p>
     </div>
     
     `

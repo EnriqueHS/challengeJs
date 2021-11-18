@@ -6,27 +6,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Proyecto Js - </title>
 		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/main.css" id="linkTheme" />
 	</head>
 
 	<body>
 		<header>
-			<a href="#" class="brand">
+			<a href="index.html" class="brand">
 				<span><img src="img/bahe-logo.png" width="50" alt="" /></span>
 				
 			</a>
 			<nav>
-				<a href="#" class="menu menu-sm">
+				<a href="index.html" class="menu menu-sm">
 					<span class="iconify" data-icon="whh:menu" data-inline="false"></span>
 				</a>
 
 				<ul class="menu menu-md">
 					<li class="menu-link "><a href="index.html">Home</a></li>
-					<li class="menu-link"><a href="store.html">Carrito</a></li>
-					<li class="menu-link"><a href="categoria.html">Filtro Cat.</a></li>
-					<li class="menu-link"><a href="product.html">Productos</a></li>
-				  <li class="menu-link"><a href="contact.html">Contacto</a></li>
-					<li class="menu-link menu-link--active"><a href="admin.html">Admin</a></li>
+					<li class="menu-link"><a href="tareas.html">Tareas</a></li>
+					<li class="menu-link"><a href="contact.html">Contacto</a></li>
+					<li class="menu-link menu-link--active"><a href="admin.html">Login</a></li>
+					<li><button id="theme">Dark Mode</button></li>
 					
 				</ul>
 			</nav>
@@ -34,7 +33,20 @@
 
 		<main>
 		
-      <h1 id="tituloH1">Login</h1>
+			
+			<h2 class="st-c">Login</h2>
+			<form action="" class="form-login" id="login">
+				<label for="name">Nombre</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="passLogin">Contraseña</label>
+				<input type="password" id="passLogin" name="passLogin" required>
+				
+			
+				<button type="submit" class="btn btn-pri">Enviar</button>
+			</form>
+		</main>
+
 
 
 

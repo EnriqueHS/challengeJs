@@ -50,6 +50,10 @@ const guardarEnBase = () => {
 };
 
 
+const agregarUsuarioLista = (object) => {
+  listaPersonas.push(crearAgenda());
+  
+};
 
 //verificar
 const verificarStorage = () =>{

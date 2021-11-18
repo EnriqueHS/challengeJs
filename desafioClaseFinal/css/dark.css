@@ -57,7 +57,19 @@ button {
 	align-items: center;
 	gap: 0.2em;
 }
-
+#theme{
+  border: 1px solid #C45B6B;
+  border-radius: 15px;
+  padding: 2px 10px;
+  color:var(--clr-txt-color);
+  background-color: var(--clr-bg-dark);
+  cursor: pointer;
+}
+#theme:hover{
+  color:var(--clr-txt-dark);
+  border: 1px solid var(--clr-txt-dark);
+ /*  background-color: var(--clr-bg-light); */
+}
 
 
 /* STYLE HEADER */
@@ -66,10 +78,10 @@ header {
 	flex-flow: column nowrap;
 	justify-content: space-between;
 	align-items: center;
-	/* BOX MODEL */
 	padding: 1em;
 	color: var(--clr-txt-dark);
 	position: relative;
+  
 }
 header .menu-md {
 	display: none;
@@ -89,19 +101,7 @@ header .menu-link:hover{
 header .menu-link--active {
 	color: var(--clr-accent-400);
 }
-#theme{
-  border: 1px solid #C45B6B;
-  border-radius: 15px;
-  padding: 2px 10px;
-  color:var(--clr-txt-color);
-  background-color: var(--clr-bg-dark);
-  cursor: pointer;
-}
-#theme:hover{
-  color:var(--clr-txt-dark);
-  border: 1px solid var(--clr-txt-dark);
- /*  background-color: var(--clr-bg-light); */
-}
+
 
 /*** STYLE HEADER ***/
 
@@ -115,7 +115,8 @@ body{
   justify-content: space-between;
 }
 main{
-  flex:1; /*para separar el header del footer*/
+  flex:1; 
+  margin-top: 5em;
 }
 .container-f{
   display: flex;
@@ -313,6 +314,7 @@ main{
 /* FORM */
 input, select, option, textarea{
   padding: 0.5em;
+  margin: 0.5em;
   border: none;
   background: var(--clr-bg-light);
   color: var(--clr-txt-light);
@@ -323,6 +325,17 @@ textarea{
   min-height: 100px;
 
 }
+#form-impreso{
+  color:var(--clr-txt-dark);
+
+}
+#form-tareas{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
 form.form-contact{
   display: flex;
   flex-flow: column nowrap;
@@ -331,11 +344,32 @@ form.form-contact{
 }
 form.form-contact label{
   margin-bottom: 0.3em;
+  color: var(--clr-txt-dark);
 }
 form.form-contact input,form.form-contact select,form.form-contact textarea {
   margin-bottom: 0.3em;
 }
 form.form-contact .btn{
+  margin-top: 1em;
+  padding-top:1em ;
+  padding-bottom:0.7em ;
+
+}
+
+
+form.form-login{
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 450px;
+  margin: 0 auto;
+}
+form.form-login label{
+  margin-bottom: 0.3em;
+}
+form.form-login input,form.form-login select,form.form-login textarea {
+  margin-bottom: 0.3em;
+}
+form.form-login .btn{
   margin-top: 1em;
   padding-top:1em ;
   padding-bottom:0.7em ;
@@ -350,7 +384,6 @@ footer {
 	flex-flow: column-reverse;
 	align-items: center;
 	padding: 1em;
-	
 	background: var(--clr-bg-dark);
 	color: var(--clr-txt-dark);
 }

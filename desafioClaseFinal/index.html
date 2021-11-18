@@ -13,7 +13,7 @@
 
 <body>
 	<header>
-		<a href="#" class="brand">
+		<a href="index.html" class="brand">
 			<span><img src="img/bahe-logo.png" width="50" alt="" /></span>
 			
 		</a>
@@ -24,55 +24,32 @@
 		
 			
 			<ul class="menu menu-md">
-				<li class="menu-link"><a href="index.html">Home</a></li>
-				<li class="menu-link"><a href="store.html">Carrito</a></li>
-				<li class="menu-link"><a href="categoria.html">Filtro Cat.</a></li>
-				<li class="menu-link"><a href="product.html">Productos</a></li>
+				<li class="menu-link menu-link--active"><a href="index.html">Home</a></li>
+				<li class="menu-link"><a href="tareas.html">Tareas</a></li>
 				<li class="menu-link"><a href="contact.html">Contacto</a></li>
-				<li class="menu-link"><a href="admin.html">Admin</a></li>
+				<li class="menu-link"><a href="admin.html">Login</a></li>
 				<li><button id="theme">Dark Mode</button></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main>
+	
 		<!-- Efecto wave -->
 		<div id="wave-cont">
 			<div class="txt-header">
 				<h1>Organizate el día</h1>
-				<a href="#comenzarTareas" id="btnComenzar">Comenzar</a>
+				<a href="tareas.html" id="btnComenzar">Comenzar</a>
 			</div>
 			<div class="wave">
 				<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
 					<path d="M0.00,49.98 C222.06,145.55 351.30,4.45 500.27,85.36 L510.44,155.42 L0.00,150.00 Z"
-						style="stroke: none; fill: #fff"></path>
+						style="stroke: none; fill: #f3f3f3"></path>
 				</svg>
 			</div>
 		</div>
 		<!-- fin de efecto wave -->
-	</main>
+	
 
-	<div class="txt-header">
-		<h2 id="comenzarTareas">Comenza a organizarte el día</h2>
-		<em>Escribe tus tareas de Yoga y Meditación para que no te olvides nada y puedas
-			organizarte mejor.</em>
-
-			<form action="" id="form-tareas">
-
-				<input type="text" placeholder="Día de la semana" autocomplete="off" id="dia">
-				<input type="number" placeholder="Inicio (24hs)" autocomplete="off" id="horaInicio">
-				<input type="number" placeholder="Finalización (24hs)" autocomplete="off" id="horaFinalizacion">
-				<input type="text" placeholder="Tarea a realizar" autocomplete="off" id="tarea">
-				<input type="number" placeholder="Codigo" autocomplete="off" id="codigo">
-			
-				
-				<button id="btnSave" class="btn btn-pri">Agendar</button>
-			</form>
-	</div>
-
-	<div id="contenidoTareas" class="txt-header">
-		
-	</div>
 	
 	
 	

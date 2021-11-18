@@ -73,10 +73,10 @@ header {
 	flex-flow: column nowrap;
 	justify-content: space-between;
 	align-items: center;
-	/* BOX MODEL */
 	padding: 1em;
 	color: var(--clr-txt-light);
 	position: relative;
+  
 }
 header .menu-md {
 	display: none;
@@ -110,7 +110,8 @@ body{
   justify-content: space-between;
 }
 main{
-  flex:1; /*para separar el header del footer*/
+  flex:1; 
+  margin-top: 5em;
 }
 .container-f{
   display: flex;
@@ -173,6 +174,7 @@ main{
   margin: 1em auto;
   padding: 1em;
   color: var(--clr-txt-light);
+  
 }
 #contenidoTareas span{
   font-weight: 400;
@@ -346,6 +348,25 @@ form.form-contact .btn{
 
 }
 
+
+form.form-login{
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 450px;
+  margin: 0 auto;
+}
+form.form-login label{
+  margin-bottom: 0.3em;
+}
+form.form-login input,form.form-login select,form.form-login textarea {
+  margin-bottom: 0.3em;
+}
+form.form-login .btn{
+  margin-top: 1em;
+  padding-top:1em ;
+  padding-bottom:0.7em ;
+
+}
 /*** LAYOUT ***/
 
 /* STYLE FOOTER */
@@ -354,9 +375,7 @@ footer {
 	flex-flow: column-reverse;
 	align-items: center;
 	padding: 1em;
-
-
-	color: var(--clr-txt-dark);
+  color: var(--clr-txt-dark);
 }
 footer p {
 	display: flex;

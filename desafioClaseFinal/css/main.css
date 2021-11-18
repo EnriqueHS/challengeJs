@@ -164,6 +164,11 @@ main{
 #btnComenzar:hover{
   text-shadow: 1px 1px 1px #CECECE;
 }
+#btnSave{
+  margin-top: 0.8em;
+  padding-top: 0.8em;
+  padding-bottom: 0.7em;
+}
 #contenidoTareas div{
   display: flex;
   justify-content: space-evenly;

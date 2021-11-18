@@ -10,11 +10,7 @@ class Agenda {
   }
 }
 
-
-
 const listaTareas = [];
-
-
 
 
 const crearAgenda = () => {
@@ -38,7 +34,6 @@ const crearAgenda = () => {
 };
 
 //Guardar
-
 const guardarEnBase = () => {
   crearAgenda();
 
@@ -55,7 +50,7 @@ const agregarUsuarioLista = (object) => {
   
 };
 
-//verificar
+//Verificar
 const verificarStorage = () =>{
   let dato = [];
   if (localStorage.getItem("listaTareas") != null){
@@ -95,9 +90,6 @@ const eliminarDeLaLista = (codigo) => {
   localStorage.setItem("listaTareas" , JSON.stringify(listaNueva))
   location.reload()
 }
-
-
-
 
 
 document.getElementById("btnSave").addEventListener("click", () => {

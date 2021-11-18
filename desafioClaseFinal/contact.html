@@ -1,70 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Proyecto Js - </title>
-		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-		<link rel="stylesheet" href="css/main.css" id="linkTheme"/>
-	</head>
 
-	<body>
-		<header>
-			<a href="index.html" class="brand">
-				<span><img src="img/bahe-logo.png" width="50" alt="" /></span>
-				
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Proyecto Js - </title>
+	<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	<link rel="stylesheet" href="css/main.css" id="linkTheme" />
+</head>
+
+<body>
+	<header>
+		<a href="index.html" class="brand">
+			<span><img src="img/bahe-logo.png" width="50" alt="" /></span>
+
+		</a>
+		<nav>
+			<a href="#" class="menu menu-sm">
+				<span class="iconify" data-icon="whh:menu" data-inline="false"></span>
 			</a>
-			<nav>
-				<a href="#" class="menu menu-sm">
-					<span class="iconify" data-icon="whh:menu" data-inline="false"></span>
-				</a>
 
-				<ul class="menu menu-md">
-					<li class="menu-link"><a href="index.html">Home</a></li>
-					<li class="menu-link"><a href="tareas.html">Tareas</a></li>
-					<li class="menu-link menu-link--active"><a href="contact.html">Contacto</a></li>
-					<li class="menu-link"><a href="admin.html">Admin</a></li>
-					<li><button id="theme">Dark Mode</button></li>
-				</ul>
-			</nav>
-		</header>
+			<ul class="menu menu-md">
+				<li class="menu-link"><a href="index.html">Home</a></li>
+				<li class="menu-link"><a href="tareas.html">Tareas</a></li>
+				<li class="menu-link menu-link--active"><a href="contact.html">Contacto</a></li>
+				<li class="menu-link"><a href="admin.html">Admin</a></li>
+				<li><button id="theme">Dark Mode</button></li>
+			</ul>
+		</nav>
+	</header>
 
-		<main>
-			
-			
-			<form action="" class="form-contact" id="formDatos">
-				<h2 id="st-c"> </h2>
-				<label for="name">Nombre</label>
-				<input type="text" id="name" name="name" required>
+	<main>
+		<form action="" class="form-contact" id="formDatos">
+			<h2 id="st-c"> </h2>
+			<label for="name">Nombre</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+			<label for="comment">Dejanos tu consulta</label>
+			<textarea name="comment" id="comment" cols="" rows="" required></textarea>
+			<button type="submit" class="btn btn-pri">Enviar</button>
+			<div id="form-impreso">Datos que nos proporcionó: <br></div>
+		</form>
+	</main>
 
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email" required>
-				
-			
- 
-				<label for="comment">Dejanos tu consulta</label>
-				<textarea name="comment" id="comment" cols="" rows="" required></textarea>
-			
- 
+	<footer>
+		<p>Derechos reservados Hscaps 2021</p>
+	</footer>
 
-								
-				<button type="submit" class="btn btn-pri">Enviar</button>
-				
-				<!-- Esto solo para la entrega -->
-				<div id="form-impreso">Datos que nos proporcionó: <br></div>
-			  <!-- Esto solo para la entrega -->
-			</form>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryAPP.js"></script>
+</body>
 
-			
-		</main>
-
-		<footer>
-			<p>Derechos reservados Hscaps 2021</p>
-		</footer>
-
-		<script src="js/main.js"></script>
-		<script src="js/jquery.js"></script>
-		<script src="js/jqueryAPP.js"></script> 
-	</body>
 </html>

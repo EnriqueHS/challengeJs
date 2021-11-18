@@ -169,6 +169,11 @@ main{
 #btnComenzar:hover{
   text-shadow: 1px 1px 1px #CECECE;
 }
+#btnSave{
+  margin-top: 0.8em;
+  padding-top: 0.8em;
+  padding-bottom: 0.7em;
+}
 #contenidoTareas div{
   display: flex;
   justify-content: space-evenly;
@@ -365,6 +370,7 @@ form.form-login{
 }
 form.form-login label{
   margin-bottom: 0.3em;
+  color: var(--clr-txt-dark);
 }
 form.form-login input,form.form-login select,form.form-login textarea {
   margin-bottom: 0.3em;
@@ -374,6 +380,9 @@ form.form-login .btn{
   padding-top:1em ;
   padding-bottom:0.7em ;
 
+}
+#errorLogin{
+  color: var(--clr-txt-dark);
 }
 
 /*** LAYOUT ***/

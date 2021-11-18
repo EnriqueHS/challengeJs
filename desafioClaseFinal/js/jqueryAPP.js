@@ -39,7 +39,7 @@ const darkMode = () => {
 
 const lightMode = () => {
   document.getElementById("linkTheme").href = "css/main.css"
-  localStorage.setItem("theme", "ligth")
+  localStorage.setItem("theme", "main")
 }
 
 document.getElementById("theme").addEventListener("click", () => {
@@ -50,10 +50,5 @@ document.getElementById("theme").addEventListener("click", () => {
   }
 })
 
-
-/* const universal = document.createElement("style")
-universal.textContent = `*{color:}`
-
-document.getElementsByTagName("head")[0].appendChild(universal) */
 
 

@@ -1,22 +1,26 @@
 
 
 //login
-function validar()
 
+function validar(){
+		const usuario = document.getElementById("name").value;
+		const contraseña = document.getElementById("passLogin").value;	
+
+    let datos = usuario + contraseña;
+
+		if(usuario === "admin" && contraseña === "coder")
 		{
-			const usuario = document.getElementById("name").value;
-			const Contraseña = document.getElementById("passLogin").value;	
-
-			if(usuario === "admin" && Contraseña === "coder")
-			{
-				alert("Usuario y Contraseña validos");
-			}
-			else
-			{
-				alert("Verifique sus credenciales");
-			}
+				
+      window.location = "tareas.html";
+      //localStorage.setItem(datos);
+      
 		}
- 
+		else
+		{
+			document.getElementById("errorLogin").textContent = "¡Error, verifique sus datos ingresados!"
+		}
+}
+
 
 //contacto.html
 console.log(document.getElementById ("st-c"));

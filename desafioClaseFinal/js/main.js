@@ -6,13 +6,13 @@ function validar(){
 		const usuario = document.getElementById("name").value;
 		const contraseña = document.getElementById("passLogin").value;	
 
-    let datos = usuario + contraseña;
+    //let datos = usuario + contraseña;
 
 		if(usuario === "admin" && contraseña === "coder")
 		{
 				
       window.location = "tareas.html";
-      //localStorage.setItem(datos);
+      
       
 		}
 		else
